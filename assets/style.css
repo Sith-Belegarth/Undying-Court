@@ -136,6 +136,65 @@ p{
 .dim{ color:var(--ink-dim); }
 li{ font-size:18px; line-height:1.6; color:var(--ink); margin-bottom:8px; }
 
+/* Stat block (extractable combat mechanics) */
+.statblock{
+  border:1px solid var(--silver-dim);
+  background:var(--panel-2);
+  margin:14px 0;
+}
+.statblock-header{
+  font-family:'Cinzel', serif;
+  font-weight:700;
+  font-size:15px;
+  letter-spacing:0.05em;
+  text-transform:uppercase;
+  color:var(--accent-bright);
+  background:rgba(169,173,178,0.1);
+  border-bottom:1px solid var(--silver-dim);
+  padding:10px 18px;
+}
+.statblock-body{
+  padding:14px 18px;
+}
+.statblock-flavor{
+  font-size:15px;
+  color:var(--ink-dim);
+  line-height:1.5;
+  margin:0 0 12px;
+}
+.statblock-flavor:last-child{ margin-bottom:0; }
+.statblock-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(110px, 1fr));
+  gap:8px 18px;
+  margin-bottom:12px;
+  padding-bottom:12px;
+  border-bottom:1px solid var(--hair);
+}
+.statblock-stat{
+  font-size:14px;
+  line-height:1.4;
+}
+.statblock-stat .label{
+  display:block;
+  font-family:'Cinzel', serif;
+  font-size:10px;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--ink-dim);
+}
+.statblock-stat .value{
+  color:var(--ink);
+  font-weight:600;
+}
+.statblock-notes p{
+  font-size:15px;
+  margin:0 0 8px;
+  color:var(--ink);
+}
+.statblock-notes p:last-child{ margin-bottom:0; }
+.statblock-notes strong{ color:var(--accent-bright); }
+
 /* Card / panel block */
 .card{
   border:1px solid var(--hair);
@@ -213,6 +272,36 @@ li{ font-size:18px; line-height:1.6; color:var(--ink); margin-bottom:8px; }
 }
 .gm-tool .callout-label{ color:var(--accent-bright); }
 
+.alt-approach{
+  border:1px solid #5a7a5f;
+  background:rgba(90,122,95,0.1);
+}
+.alt-approach .callout-label{ color:#8fbf96; }
+
+.template-block{
+  border:1px dashed var(--silver-dim);
+  background:rgba(169,173,178,0.04);
+  padding:18px 22px;
+  margin:16px 0;
+}
+.template-block .template-label{
+  font-family:'Cinzel', serif;
+  font-size:11px;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  color:var(--ink-dim);
+  margin-bottom:10px;
+  display:block;
+}
+.template-block .fill-in{
+  color:var(--ink-dim);
+  font-style:italic;
+}
+table.stat-table.template td, table.stat-table.template th{
+  font-style:italic;
+  color:var(--ink-dim);
+}
+
 /* Stat table */
 table.stat-table{
   width:100%;
@@ -250,13 +339,16 @@ table.stat-table tr:nth-child(even) td{ background:var(--panel-2); }
   border:1px solid var(--hair);
   background:var(--panel);
   padding:20px 22px;
-  text-decoration:none;
-  color:var(--ink);
   transition:border-color 0.2s, background 0.2s;
 }
 .pregen-card:hover{
   border-color:var(--silver);
   background:var(--panel-2);
+}
+.pregen-card-link{
+  display:block;
+  text-decoration:none;
+  color:var(--ink);
 }
 .pregen-portrait{
   width:100%;
@@ -285,6 +377,24 @@ table.stat-table tr:nth-child(even) td{ background:var(--panel-2); }
   font-size:15px;
   line-height:1.5;
   color:var(--ink);
+}
+.pregen-download{
+  display:block;
+  margin-top:14px;
+  text-align:center;
+  font-family:'Cinzel', serif;
+  font-size:11px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--accent-bright);
+  text-decoration:none;
+  border:1px solid var(--silver-dim);
+  padding:8px 10px;
+  transition:background 0.2s, color 0.2s;
+}
+.pregen-download:hover{
+  background:var(--accent);
+  color:#0b0a0d;
 }
 
 /* ---------- Character sheet image pages ---------- */
@@ -317,6 +427,25 @@ table.stat-table tr:nth-child(even) td{ background:var(--panel-2); }
   font-size:15px;
   color:var(--ink-dim);
   line-height:1.6;
+}
+.char-download{
+  display:inline-block;
+  margin:0 auto 30px;
+  font-family:'Cinzel', serif;
+  font-size:12px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:#0b0a0d;
+  background:var(--accent);
+  text-decoration:none;
+  border:1px solid var(--silver-dim);
+  padding:11px 22px;
+  transition:background 0.2s;
+}
+.char-download:hover{ background:var(--accent-bright); }
+.char-download-wrap{
+  text-align:center;
+  margin-bottom:10px;
 }
 .sheet-pages{
   display:flex;
@@ -523,6 +652,19 @@ table.stat-table tr:nth-child(even) td{ background:var(--panel-2); }
   .readaloud{ border-color:#999999; background:#f6f3ec; color:#333333; }
   .callout{ border-color:#999999; background:#f0f0f0; break-inside:avoid; }
   .callout .callout-label{ color:#555555; }
+  .alt-approach{ border-color:#7a9a7f; background:#eef3ee; }
+  .alt-approach .callout-label{ color:#3d5c42; }
+  .template-block{ border:1px dashed #999999; background:#fafafa; }
+  .template-block .template-label{ color:#666666; }
+  .template-block .fill-in{ color:#666666; }
+  .statblock{ border:1px solid #999999; background:#ffffff; break-inside:avoid; }
+  .statblock-header{ background:#e8e8e8; color:#111111; border-bottom:1px solid #999999; }
+  .statblock-flavor{ color:#333333; }
+  .statblock-grid{ border-bottom:1px solid #cccccc; }
+  .statblock-stat .label{ color:#555555; }
+  .statblock-stat .value{ color:#111111; }
+  .statblock-notes p{ color:#111111; }
+  .statblock-notes strong{ color:#111111; }
   .char-nav{ display:none; }
   .sheet-pages img{ box-shadow:none; break-inside:avoid; }
 }
