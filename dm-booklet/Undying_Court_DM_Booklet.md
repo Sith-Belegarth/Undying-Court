@@ -291,8 +291,6 @@ Use the SRD **Vampire Spawn** stat block as-is — no reflavoring needed. It alr
 
 > **[CAMPAIGN HOOK]** Don't let the module force a clean kill. If Malqor or Seraphyne is reduced to 0 HP but the party doesn't destroy the phylactery / the coffin isn't staked-and-burned, either monarch can return later as a recurring antagonist. Perfect if you want this one-shot to become session one of something longer.
 
-> **GM Tool.** If Zyra Kethis is in the party, she was gifted with hearing the final cries of the dying. She heard Seraphyne's family die in the vampire attack that made her — everyone in that castle except Seraphyne herself. Whether and how she reveals it during this fight is entirely up to the table.
-
 ---
 
 ## NPCs & Pregens
