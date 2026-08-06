@@ -72,6 +72,8 @@
 
       <h3 class="sub-heading">Combat: Grand Antechamber</h3>
 
+      <span class="difficulty-tag puzzle">Puzzle</span>
+      <span class="difficulty-tag deadly">Deadly if fought head-on</span>
       <div class="statblock">
         <div class="statblock-header">Magical Sconces</div>
         <div class="statblock-body">
@@ -93,20 +95,44 @@
       </div>
 
       <div class="callout alt-approach">
-        <span class="callout-label">Alternate Approach: Sconces</span>
+        <span class="callout-label">Design Note: Sconces</span>
         <p>A creature that stays outside the sconce's 25 ft. range and out of direct line of sight is never targeted. Parties who scout before entering (Perception/Investigation to spot the crystals from the doorway) can route around both sconces entirely rather than fighting or disabling them.</p>
       </div>
 
+      <div class="callout scaling-note">
+        <span class="callout-label">Scaling Note</span>
+        <p>Fought head-on, two sconces swing from Deadly (party of 3, level 3) down to Easy (party of 6, level 5) &mdash; the same stat block, radically different threat depending on your table.</p>
+        <table class="stat-table">
+          <tr><th>Party</th><th>Suggested Adjustment</th></tr>
+          <tr><td>3 players, level 3</td><td>Run as written, or drop to 1 sconce if your table is cautious &mdash; two is genuinely Deadly if fought instead of bypassed.</td></tr>
+          <tr><td>4&ndash;5 players, level 3</td><td>Run as written.</td></tr>
+          <tr><td>Any size, level 4&ndash;5</td><td>Add a third sconce, or raise damage to 1d6+4 per hit, to keep the room a genuine threat rather than a formality.</td></tr>
+          <tr><td>6 players, any level 3&ndash;5</td><td>Add a third sconce covering the room's far corner &mdash; two sconces can't meaningfully threaten six actions per round.</td></tr>
+        </table>
+      </div>
+
+      <span class="difficulty-tag easy">Easy</span>
       <div class="card">
         <p><strong>Broken Guardians.</strong> Worn statues, animated by the Court's residual dark side energy. Clamors to life when an adventurer comes within 60 feet, demanding the passerby swear to rise in resistance against the light (x1 guardian). It grinds and clamors as it attacks, bellowing fealty to the King and Queen of Undying Darkness.</p>
-        <p class="dim"><em>Note:</em> eight statues line the chamber; only 1 of these 8 is an animated Broken Guardian &mdash; a taste of what's coming. The rest are inert &mdash; decoration, not combatants &mdash; unless you decide otherwise. Two more Guardians (reskinned) appear later as Undead Arena Champions in the Dining Hall/Arena.</p>
+        <p class="dim"><em>Note:</em> eight statues line the chamber. Only one attacks now &mdash; a warning shot, meant to foreshadow the rest rising in greater numbers later. Two more Guardians (reskinned) appear as Undead Arena Champions in the Dining Hall/Arena.</p>
         <p class="dim"><em>Suggested statline:</em> use the <strong>Animated Armor</strong> stat block (AC 18, HP 33 (6d8+6), immune to poison/psychic and most conditions, Multiattack: two Slam attacks, 1d6+2 each). Reflavor as crumbling stone rather than metal.</p>
       </div>
 
       <div class="callout alt-approach">
-        <span class="callout-label">Alternate Approach: Broken Guardians</span>
+        <span class="callout-label">Design Note: Broken Guardians</span>
         <p>A creature that speaks the oath of fealty aloud (even falsely) causes the nearest guardian to pause instead of attacking. Contested Deception vs. the guardian's passive Insight (10): success and it stands down for the encounter; failure and it attacks with advantage on its first hit, having caught the lie.</p>
         <p>A convincing oath is remembered. Reference it if the party returns to this room later.</p>
+      </div>
+
+      <div class="callout scaling-note">
+        <span class="callout-label">Scaling Note</span>
+        <p>One guardian is Easy at every party size 3&ndash;6, level 3&ndash;5 &mdash; it's meant to be a taste, not a fight. Scale the taste, not just the later payoff:</p>
+        <table class="stat-table">
+          <tr><th>Party</th><th>Suggested Adjustment</th></tr>
+          <tr><td>3 players, level 3</td><td>Run as written &mdash; one guardian.</td></tr>
+          <tr><td>5&ndash;6 players, any level</td><td>Two guardians instead of one; still a taste, but registers against more actions in the room.</td></tr>
+          <tr><td>Any size, level 4&ndash;5</td><td>Add a Multiattack bonus action (a third Slam at disadvantage) to keep pace with better AC/saves.</td></tr>
+        </table>
       </div>
 
       <h3 class="sub-heading">Hazards &amp; Interests: Grand Antechamber</h3>
@@ -120,17 +146,47 @@
       </ul>
 
       <h3 class="sub-heading">Treasure (Grand Antechamber Corpses)</h3>
-      <ul>
-        <li>DC 20 Investigation, after ten minutes of careful searching: a <strong>Necklace of Adaptation</strong> (breathe underwater, requires attunement).</li>
-        <li>DC 10 Investigation, same search: a piece of turquoise on a thick gold chain (worth 12 gp).</li>
-      </ul>
+      <p>After ten minutes of careful searching among the corpses, broken statues, and toppled shelving, roll or choose from the table below. A single search can surface multiple tiers if the roll clears them.</p>
+
+      <table class="stat-table">
+        <tr><th>DC</th><th>Find</th></tr>
+        <tr><td>8</td><td>A bag of 1,000 ball bearings, scattered but recoverable</td></tr>
+        <tr><td>10</td><td>A piece of turquoise on a thick gold chain (12 gp)</td></tr>
+        <tr><td>12</td><td>Coin purse, still containing 300 sp</td></tr>
+        <tr><td>14</td><td>Silk pennant trimmed with fox fur (10 gp)</td></tr>
+        <tr><td>16</td><td>Feathered shortsword scabbard (10 gp)</td></tr>
+        <tr><td>18</td><td>Pewter flute (10 gp)</td></tr>
+        <tr><td>20</td><td>Amulet of Water Breathing (uncommon; DMG 150, requires attunement)</td></tr>
+        <tr><td>22</td><td>Carved wooden bowl (10 gp)</td></tr>
+        <tr><td>24</td><td>3&times; Potion of Climbing (common)</td></tr>
+      </table>
+
+      <p class="dim">A DC 20 Investigation check (or higher) always includes the Amulet of Water Breathing and the original 12 gp turquoise chain find from the corpse search. Keep those as your guaranteed anchor items regardless of what else the table yields, so the room's existing hooks stay intact &mdash; the amulet is also a fair, in-fiction nod to what's coming next: the party is about to go swimming.</p>
 
       <div class="section-title roman">Part Two: The Depths (Sewer Tunnels)</div>
       <p>The only way to continue past the grand antechamber is through the large drain and into the sewers. Navigating the old, overflowed sewage system requires some swimming, some Constitution DC 10 saving throws, and the possibility of trench foot.</p>
-      <p class="dim"><em>(Use the same map as the Grand Antechamber. The sewer tunnels wind beneath the same footprint, one level down. If you want a distinct layout, mirror the antechamber's diamond shape but narrower, with the grate room as the only vertical connection between levels.)</em></p>
+
+      <figure class="map-figure">
+        <img src="../assets/maps/Map01-Sewers.png" alt="Map of the sewer tunnels beneath the Grand Antechamber">
+        <figcaption>Map 01 &mdash; Sewers</figcaption>
+      </figure>
 
       <div class="card">
         <p><strong>Running this room:</strong> The sewers are mostly a gauntlet, not a set-piece fight. Consider 1&ndash;2 short encounters (rot-touched vermin, a lurking ooze grown fat on the moss) plus the swimming/Con save gauntlet described above. If your table wants combat here, reuse the Broken Guardian stat block once, damp and rusted.</p>
+      </div>
+
+      <span class="difficulty-tag resource-drain">Resource Drain</span>
+      <p class="dim">The Sewers aren't meant to threaten a TPK &mdash; the swimming, Con saves, and short fights below are meant to cost HP, spell slots, and resources before the Dining Hall, not to be a hard fight on their own.</p>
+
+      <div class="callout scaling-note">
+        <span class="callout-label">Scaling Note</span>
+        <p>DC 10 Con saves are real friction for a level 3 party and background noise for level 5 characters with better Con saves and more HP to spare.</p>
+        <table class="stat-table">
+          <tr><th>Party</th><th>Suggested Adjustment</th></tr>
+          <tr><td>Level 3, any size</td><td>Run as written &mdash; DC 10 costs real resources here.</td></tr>
+          <tr><td>Level 4&ndash;5, any size</td><td>Raise the swimming save to DC 12&ndash;13, or add a second save partway through, so the gauntlet still drains something.</td></tr>
+          <tr><td>6 players, any level</td><td>Add a second short encounter (vermin or ooze) &mdash; more actions in the party means the sewers clear faster than intended otherwise.</td></tr>
+        </table>
       </div>
 
       <div class="statblock">
@@ -170,9 +226,56 @@
         </div>
       </div>
 
+      <h3 class="sub-heading">The Sunken Hearth (Sewers Side-Chamber)</h3>
+      <p>Reached through a second, smaller drain the party isn't required to take &mdash; a genuine branch off the main gauntlet, not a detour that gates progress. If your table wants a prompt to find it: a DC 12 Perception check while wading through the tunnels notices a current of clean, cold air where there shouldn't be one.</p>
+
+      <div class="readaloud">
+        <p><strong>Quick version:</strong> The tunnel narrows, then opens into a low hollow that has nothing in common with the sewers behind you &mdash; older, rougher stonework, and a basin of black, still water at its center. Alcoves ring the walls, each holding a sealed clay urn, save for two standing empty near the entrance.</p>
+      </div>
+      <p class="dim"><em>Expanded, if you have the room for it:</em> Once you're through the collapsed drain, the tunnel narrows, then opens into a low hollow that has nothing in common with the sewers behind you. The masonry here is older &mdash; rougher, rounder, without the Court's sharp right angles. A basin of black, still water sits at the chamber's center, long dry of whatever spring once fed it, its rim carved with vine and hoof motifs worn nearly smooth. Alcoves ring the walls, each holding a sealed clay urn &mdash; save for two, near the entrance, standing empty. Someone built the Court's foundation directly into and over this place, and didn't bother to ask what it was first.</p>
+
+      <p><strong>What this room is.</strong> Long before the King and Queen raised their palace, this was a sacred spring, tended by a satyr community who lived and died here in the open &mdash; pyres, not tombs. The Court's builders walled the spring into a cistern and used the older stonework as a foundation without ceremony. The urns are grave goods, not treasure in the dungeon's usual sense: ash, gold funerary masks, jewelry, and coin left for the dead rather than the living.</p>
+      <p class="dim"><em>The empty alcoves.</em> A DC 13 Investigation or Perception check notices the dust pattern is wrong at the two empty slots &mdash; disturbed recently, not centuries ago, and the urns that stood there are simply gone. No further explanation here; the party won't have reason to connect it until they reach the Dining Hall/Arena and find two grave urns sitting among the Court's own trophies.</p>
+
       <div class="callout">
-        <span class="callout-label">Campaign Hook</span>
-        <p>If you want a longer dungeon, this is the easiest place to insert an extra level. The sewers can branch toward a second entrance, a smuggler's cache, or (if you're building toward the Persistent Nodes idea) a sealed chamber that predates the Court entirely.</p>
+        <span class="callout-label">Design Note</span>
+        <p><strong>Running this room:</strong> This is a beat, not an encounter &mdash; no combat is required here, and it plays best if you let it breathe. Keep the prose gentler than the rest of the dungeon: less rot-and-decay horror, more hushed reverence. The contrast is doing narrative work &mdash; it reframes "corrupted grandeur" once the party sees what the grandeur was built on top of.</p>
+      </div>
+
+      <div class="callout alt-approach">
+        <span class="callout-label">Serai Hook</span>
+        <p>If Serai Thalos is in the party, her Anachronistic Knowledge background feature triggers here with no roll required: she immediately recognizes the hoofprint carvings, the open-air pyre-and-urn interment style, and that this predates the Court by a wide margin. This is her moment &mdash; let her carry the scene. A History check at her doubled proficiency (or Arcana/Religion, DM's call) can surface more: roughly how long ago, what the vine-and-hoof motifs signify, whether this was a large settlement or a small shrine.</p>
+        <p>Don't confirm whether these were specifically her people. Let her be certain of the era and the culture, uncertain of the rest. That keeps her Bond ("someone else was also sent through time when I was &mdash; I need to find that person") open as a thread rather than closing it in a side room; it's a stronger beat for a later session than a one-shot payoff.</p>
+        <p>If Serai isn't in the party, any character can piece this together with a DC 15 History or Religion check &mdash; just without the certainty or the color she'd bring to it.</p>
+      </div>
+
+      <h3 class="sub-heading">Treasure (The Urns)</h3>
+      <p>Twelve sealed urns line the alcoves; opening one is free, but a proper search of its contents calls for an Investigation check. Roll or choose from the table below. Each urn yields one result, so a DM running this as a "search several urns" scene can call for the check once per urn opened.</p>
+
+      <table class="stat-table">
+        <tr><th>DC</th><th>Find</th></tr>
+        <tr><td>8</td><td>A scatter of worn silver coin, unfamiliar in mint (roughly 15 sp equivalent)</td></tr>
+        <tr><td>10</td><td>A single silver piece, tarnished black, tucked beside the ash</td></tr>
+        <tr><td>12</td><td>A Shabti funerary figurine, carved in the likeness of the deceased</td></tr>
+        <tr><td>14</td><td>A polished hematite or obsidian stone, worn smooth from handling (10 gp)</td></tr>
+        <tr><td>16</td><td>A Heart Scarab, carved bone or horn rather than beetle-shaped (18 gp)</td></tr>
+        <tr><td>18</td><td>A bloodstone or star rose quartz set in a thin gold wire (25 gp)</td></tr>
+        <tr><td>20</td><td>A carnelian pendant (25 gp)</td></tr>
+        <tr><td>22</td><td>A Potion of Healing (common; DMG 187), sealed in wax</td></tr>
+      </table>
+
+      <p class="dim">The set-apart urn near the basin (see Serai Hook, above) holds ash only &mdash; no item. Whatever was buried with this occupant mattered more for who they were than what they owned.</p>
+
+      <p class="dim"><em>The toll-coins.</em> The loose coin among the grave goods isn't stamped with any currency the party will recognize. A DC 12 History or Religion check identifies them as Charon's obols &mdash; coins left with the dead to pay passage across the boundary, not currency meant to be spent. Without the check, the party can still sense something's off (spending it feels wrong even before anyone says so out loud), but the check is what turns that unease into certainty. Either way, play what happens next as a roleplay beat rather than a mechanical restriction: let the party decide for themselves whether to take it.</p>
+
+      <div class="callout">
+        <span class="callout-label">Design Note</span>
+        <p>This room predates the Court entirely, which makes it a clean seed if you're building toward Shaen Orvo's Persistent Nodes idea (see Turning This Into a Campaign) &mdash; a site with its own history the Court's corruption never touched, sitting quietly beneath the one that did.</p>
+      </div>
+
+      <div class="callout">
+        <span class="callout-label">Design Note</span>
+        <p>If you want a longer dungeon, this is the easiest place to insert an extra level. The sewers can branch toward a second entrance or a smuggler's cache &mdash; the Sunken Hearth above already covers the "sealed chamber that predates the Court" idea.</p>
       </div>
 
       <div class="char-nav">

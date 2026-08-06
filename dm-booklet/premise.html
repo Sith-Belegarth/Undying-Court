@@ -48,12 +48,72 @@
       </div>
 
       <div class="section-title roman">How to Use This Booklet</div>
-      <p>This is built to run as a single satisfying session. Descent, dungeon, boss, done. Every section is also written so you can keep pulling threads afterward. Look for <strong>[CAMPAIGN HOOK]</strong> call-outs throughout; they mark places where the one-shot quietly opens a door into something longer.</p>
+      <p>This is built to run as a single satisfying session. Descent, dungeon, boss, done. Every section is also written so you can keep pulling threads afterward. Look for <strong>Design Note</strong> call-outs throughout; they mark places where the one-shot quietly opens a door into something longer, or explain the reasoning behind a room, encounter, or choice.</p>
 
       <table class="stat-table">
         <tr><th>Party size</th><td>3&ndash;6, levels 3&ndash;5 (pregens included are Level 3)</td></tr>
         <tr><th>Session length</th><td>One 3&ndash;4 hour sitting</td></tr>
         <tr><th>Tone</th><td>Gothic ruin-crawl. Sith relics, undead royalty, corrupted grandeur.</td></tr>
+      </table>
+
+      <div class="section-title roman">Dungeon Flow</div>
+      <p>The critical path runs Antechamber &rarr; Sewers &rarr; Dining Hall &rarr; Ritual Hall &rarr; Crypt. Everything else is a genuine branch the party can skip without missing the boss fight &mdash; use this to keep your bearings mid-session.</p>
+
+      <div class="flow-chart">
+        <div class="flow-node">Entrance</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-node">Grand Antechamber</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-node">Sewers</div>
+        <div class="flow-arrow">&darr;</div>
+
+        <div class="flow-branch">
+          <div class="flow-branch-col">
+            <div class="flow-branch-label">optional branch</div>
+            <div class="flow-node optional">Sunken Hearth</div>
+          </div>
+          <div class="flow-branch-col">
+            <div class="flow-branch-label">critical path</div>
+            <div class="flow-node">continue &darr;</div>
+          </div>
+        </div>
+
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-node">Dining Hall / Arena</div>
+        <div class="flow-arrow">&darr;</div>
+
+        <div class="flow-node optional">Inner Courtyard <span class="dim">(optional side room)</span></div>
+        <div class="flow-arrow">&darr;</div>
+
+        <div class="flow-node optional">Treasury <span class="dim">(optional side room)</span></div>
+        <div class="flow-arrow">&darr;</div>
+
+        <div class="flow-node">Ritual Hall</div>
+        <div class="flow-arrow">&darr;</div>
+
+        <div class="flow-node optional">The Study <span class="dim">(secret room)</span></div>
+        <div class="flow-arrow">&darr;</div>
+
+        <div class="flow-node boss">The Crypt <span class="dim">(boss)</span></div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-node">Escape</div>
+      </div>
+
+      <div class="flow-legend">
+        <span><span class="swatch"></span> Critical path</span>
+        <span><span class="swatch optional"></span> Optional / secret</span>
+        <span><span class="swatch boss"></span> Boss encounter</span>
+      </div>
+
+      <div class="section-title roman">Scaling This Module</div>
+      <p>This module is written for 3&ndash;6 players, level 3&ndash;5 &mdash; but a party of 3 level 3s and a party of 6 level 5s are not the same fight, even against identical stat blocks. Look for the <strong>Scaling Note</strong> callouts throughout; they call out the encounters where this matters most and give concrete adjustments per party size and level.</p>
+
+      <table class="stat-table">
+        <tr><th>Situation</th><th>General Approach</th></tr>
+        <tr><td>Small party (3), low level (3)</td><td>The module is tuned for this end of the range. Run encounters mostly as written; the boss fight and both sconce encounters are the ones to watch &mdash; they're the module's real difficulty spikes at this tier.</td></tr>
+        <tr><td>Large party (5&ndash;6), low level (3)</td><td>More actions per round than the encounters expect. Add one extra combatant to group fights (Guardians, Champions) rather than buffing individual stat blocks &mdash; keeps the action economy honest without inflating any single monster's HP.</td></tr>
+        <tr><td>Any size, higher level (4&ndash;5)</td><td>Static DCs and flat damage numbers age fast. Raise save DCs by 2&ndash;3, add a damage die to hazards (sconces, traps), and let Malqor use his higher-level spell slots &mdash; he's already statted as a 9th-level caster on the Mage block, so the tools are there.</td></tr>
+        <tr><td>Large party (5&ndash;6), higher level (4&ndash;5)</td><td>Combine both adjustments above. This is the module's easiest matchup by a wide margin as written; without adjustment, most encounters (including the boss) drop from Deadly/Hard to Easy.</td></tr>
       </table>
 
       <div class="section-title roman">The Premise</div>
@@ -78,8 +138,13 @@
       </div>
 
       <div class="callout">
-        <span class="callout-label">Campaign Hook</span>
+        <span class="callout-label">Design Note</span>
         <p>Every hook above survives the dungeon. The warlord still wants that blade. The guild still wants its cut. The dark power that whispered to the Warlock doesn't go silent just because the module ends.</p>
+      </div>
+
+      <div class="callout">
+        <span class="callout-label">Design Note</span>
+        <p>Payoff locations, at a glance: Barbarian and Fighter &mdash; Dining Hall trophy rack and the Ossyrran Blade (the Crypt). Rogue, Wizard, Sorcerer &mdash; the Treasury and/or Malqor's Study. Monk &mdash; the Treasury's scroll. Cleric, Paladin, Warlock, Druid &mdash; the Ritual Hall altar (fed or cleansed). Ranger, and Warlock/Druid again &mdash; the Inner Courtyard, off the Dining Hall (Part Three). Bard is intentionally the loosest hook in the set; Serai Thalos's own pregen Bond does the heavy lifting for her specifically, via the Sunken Hearth.</p>
       </div>
 
       <div class="char-nav">
