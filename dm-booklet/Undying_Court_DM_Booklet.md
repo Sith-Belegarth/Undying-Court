@@ -424,28 +424,33 @@ Opening either urn (no check) reveals ash, disturbed and picked through rather t
 
 ### The Treasury (Side Room, off the Dining Hall)
 
-Place it as a locked or hidden side door off the Dining Hall or off the corridor leading to the Ritual Hall, whichever suits your table's pacing.
+A locked door off the Dining Hall, iron-strapped and stubborn, sits exactly where the guild's map said it would. This is what the Rogue paid for.
 
 > **Design Note.** Three separate hooks — Rogue, Wizard, and Sorcerer — all point at a treasury or vault. This is that room; it fits the Rogue's "paid for vault access" hook directly. It doesn't need to be large — a single vault chamber the party can choose to detour into is enough to pay off all three hooks without padding the dungeon.
 
 > **Design Note.** This room is the direct payoff for the Foreshadowing callout in Part One: the sconce crystals and the sword crystals are confirmed the same substance, and this is where that substance (and the knowledge to work it) actually turns up. If you'd rather not add a room, redirect all three hooks to the crypt loot instead — just be explicit with the players that the crystals they've been tracking are down there, so the hook still resolves.
 
-**Template — fill in before running:**
+**Access.** A locked door, DC 15 Dexterity (Thieves' Tools) to pick, or the Rogue's own key opens it without a check — this is the vault they already paid for. Anyone else can force it with DC 18 Strength, loudly.
 
-- **Access:** *[locked door / hidden panel / guarded — DC to find or open]*
-- **Read-aloud (quick version):** *[2–3 sentences, same "quick version" treatment as the Antechamber — what the room looks/smells/sounds like on entry]*
-- **Guardian/Hazard (optional):** *[reuse an existing stat block — Broken Guardian, Moss-Fed Ooze, a sconce — or leave unguarded if you want this to be a pure exploration/investigation payoff]*
-- **Rogue payoff:** *[the untouched gold / vault contents that make the guild's investment pay off]*
-- **Wizard payoff:** *[the lost knowledge to craft a crystal-powered sword — a written text, a diagram, a partially-finished blade]*
-- **Sorcerer payoff:** *[the crystal-powered sword itself, or the raw crystals needed to forge/awaken one]*
-- **Monk payoff:** a sealed scroll case holding the **"Path of Darkness Made Flesh"** — already placed below as a guaranteed find, no template needed for this one.
+**Read-aloud — quick version:**
+> A narrow stone vault, dry and undisturbed, lined with velvet-lined shelves. Most stand empty — long since cleared — but a few things remain, deliberately left rather than overlooked.
+
+**What's here.** Nothing in this room is guarded or trapped — it's a pure investigation payoff, the same pacing beat as the Study. The vault was mostly emptied long ago, but what's left is exactly what three of the party's hooks have been chasing.
+
+| Item | Description | DC to Find (if hidden) |
+|---|---|---|
+| Guild's due (Rogue payoff) | A small, unremarkable strongbox, exactly where the guild's map marked it. 150 gp in worked silver and gems — enough to make the vault-access fee pay off, with a little room to spare. | — (guaranteed, on entry) |
+| Diagram of the Ossyrran Blade (Wizard payoff) | A single sheet of vellum, carefully preserved, showing a cutaway diagram of a socketed hilt — the lost knowledge of how to build a crystal-powered sword, though not the sword itself. Incomplete without a crystal to study alongside it. | — (guaranteed, on entry) |
+| Uncut Ossyrran crystal, black (Sorcerer payoff) | A single raw crystal, unset, wrapped in oilcloth in the back of the vault. Confirms the Sorcerer's bloodline legend was real; paired with the diagram above, it's everything needed to eventually build or commission an Ossyrran Blade of their own. | DC 14 Investigation (behind a loose shelf panel) |
+| Mundane gold/valuables | 60 gp in mixed coin, scattered across the emptied shelves. | DC 10 Investigation |
+
+> **Wizard/Sorcerer Hook.** The diagram and the crystal are two halves of the same payoff, and deliberately split so both players get something concrete: the Wizard gets the theory (how the binding works, matching the notes in Malqor's Study if the party finds both), the Sorcerer gets the raw material their bloodline was famous for using. Neither is a finished Ossyrran Blade — that's the Fighter's reward in the Crypt — but between this room and the Study, a Wizard or Sorcerer now has everything they'd need to eventually build one of their own, on a timeline that extends past the one-shot if you want it to.
+
+**Monk payoff:** a sealed scroll case holding the **"Path of Darkness Made Flesh"** — see below, guaranteed on entry alongside the Rogue and Wizard finds.
 
 | Item | Description | DC to Find (if hidden) |
 |---|---|---|
 | Path of Darkness Made Flesh | A cracked leather scroll case, sealed with the Court's own sigil. Inside: a treatise in a disciplined, practiced hand — the writings of a monk famous within the Way of the Long Death, on mastering death as a discipline rather than fearing it. Hand it over on sight, no roll. | — (guaranteed, on entry) |
-| *[item name]* | *[description / mechanical effect]* | *[DC]* |
-| *[item name]* | *[description / mechanical effect]* | *[DC]* |
-| Mundane gold/valuables | *[amount, e.g. "150 gp in mixed coin"]* | — |
 
 > **Design Note: Path of Darkness Made Flesh.** If the party's Monk already practices the Way of the Long Death (as Shaen Orvo's pregen does), a night spent meditating on the scroll — a full short or long rest, uninterrupted — deepens her understanding of her own tradition. Award a small, table-appropriate bonus: a flat XP award as if for a minor milestone, an extra 1st-level Ki-adjacent feature for the session, or (if your table runs milestone leveling) treat it as confirmation she's ready for her next level, fictionally justified rather than earned through combat.
 >
